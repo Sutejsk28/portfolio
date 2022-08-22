@@ -1,0 +1,53 @@
+
+
+.project__item{
+  background: #171f38;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px 10px 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.project__item h6 {
+    color: #01d293;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.project__img {
+    margin-top: 30px;
+    background: transparent;
+}
+
+.project__img img{
+  border-radius: 10px;
+}
+
+.project__teckStack {
+    padding: 5px 10px;
+    color: #fff;
+    background: #808dad68;
+    font-size: 0.7rem;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.project__live{
+    margin-left: -100px;
+    margin-top: 30px;
+    display: none;
+}
+
+.project__item:hover .project__live{
+    margin-left: 0;
+    display: block;
+}
+
+@media only screen and (max-width: 576px) {
+    .porject__img img {
+      width: 100% !important;
+    }
+  }
